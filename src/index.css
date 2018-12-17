@@ -28,3 +28,13 @@ img {
     90% { transform: translate(1px, 2px) rotate(0deg); }
     100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
+
+.modal {
+    position: fixed;
+    top: 100px;
+    left: 100px;
+    background: white;
+    padding: 60px;
+    box-shadow: 0 0 50px black;
+    z-index: 100;
+}

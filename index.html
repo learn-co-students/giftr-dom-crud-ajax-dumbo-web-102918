@@ -33,7 +33,7 @@
 
         </div>
         <div class="four wide column">
-
+          <h3>New Gift Form</h3>
           <!-- CODE FOR NEW GIFT FORM -->
           <form id="new-gift-form" class="ui form" action="index.html" method="POST">
             <label for="name">Gift Name: </label>
@@ -44,6 +44,19 @@
             <button id="gift-form-button" type="submit" name="button" class="ui button">Create a New Gift</button>
           </form>
           <!-- END CODE FOR NEW GIFT FORM -->
+          <div class="modal" style="display: none;">
+
+            <h3>Edit Gift Form</h3>
+            <form id="edit-gift-form" class="ui form" action="index.html" method="POST">
+              <input class="gift-id" type="hidden" name="image" value="">
+              <label for="name">Gift Name: </label>
+              <input class="gift-name-input" type="text" name="name" value="">
+              <label for="image">Gift Image: </label>
+              <input class="gift-image-input" type="text" name="image" value="">
+              <br>
+              <button class="gift-form-button" type="submit" name="button" class="ui button">Update Gift</button>
+            </form>
+          </div>
 
         </div>
         <div class="two wide column"></div>
